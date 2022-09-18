@@ -2,12 +2,20 @@
 
 $ echo "# praticas" >> README.md 
 
-2 - inicia o repositorio de git vazio na pasta 
+2 - inicia o repositório de git vazio na pasta 
 $ git init
 
+3 - adiciona arquivos dentro do repositorio (ponto adiciona todos os arquivos do repositório)
+$ git add . 
 
-git add README.md
-git commit -m "first commit"
-git branch -M main
+4 - agora que adicionei todos os arquivos ele os versiona
+$ git commit -m "first commit"
+
+5 - (opcional) cria um garfo (fork) da branch principal (troca de master para main) 
+$ git branch -M main
+
+$ 6 - cria um novo controle remoto chamado origin localizado no endereco indicado
 git remote add origin https://github.com/7cristovao/praticas.git
-git push -u origin main
+
+$ 7 - usado para enviar o conteúdo do repositório local para um repositório remoto. 
+git push -u origin master
