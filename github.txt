@@ -17,5 +17,6 @@ $ git branch -M main
 $ 6 - cria um novo controle remoto chamado origin localizado no endereco indicado
 git remote add origin https://github.com/7cristovao/praticas.git
 
-$ 7 - usado para enviar o conteúdo do repositório local para um repositório remoto. 
-git push -u origin master
+7 - usado para enviar o conteúdo do repositório local para um repositório remoto. 
+$ git push -u origin master
+
