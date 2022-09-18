@@ -1,0 +1,13 @@
+1 - Criar arquivo de texto
+
+$ echo "# praticas" >> README.md 
+
+2 - inicia o repositorio de git vazio na pasta 
+$ git init
+
+
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/7cristovao/praticas.git
+git push -u origin main
